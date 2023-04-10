@@ -13,9 +13,13 @@ function App() {
         <h1>React Router </h1>
         <Header />
         <Routes>
+//     we can also directly route the elemnts as below.
+    
           {/* <Route exact path="/" element={<div>this is HomePage</div>} />
           <Route exact path="about" element={<div>this is About PAge</div>} />
           <Route exact path="contact" element={<div> this is ContactPage</div>} /> */}
+
+// route the components as bellow
           <Route exact path="/" element={<Home />} />
           <Route exact path="about" element={<About />} />
           <Route exact path="contact" element={<Contact />} />
