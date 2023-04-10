@@ -24,13 +24,13 @@ function App() {
                           */}
 
 
-          {/* 
+
                             // route the components as bellow
-                            <Route exact path="/" element={<Home />} />
-                            <Route exact path="about" element={<About />} />
-                            <Route exact path="contact" element={<Contact />} />
-                            <Route component={<Notfound />} /> 
-                          */}
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="about" element={<About />} />
+          <Route exact path="contact" element={<Contact />} />
+          <Route component={<Notfound />} />
+
           <Route exact path="blogslist" element={<BlogsList />} />
 
         </Routes>
